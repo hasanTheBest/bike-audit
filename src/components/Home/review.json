@@ -1,0 +1,44 @@
+[
+  {
+    "id": "624ad75b1c6d75a576e74ce4",
+    "name": "Bd Biker",
+    "image": "./images/rider-1.jpg",
+    "rating": 4.8,
+    "review": "One for all top bikes only it can be r15 v4 version with huge beast look in budget rate with great bike structure and superb performance, Where as mileage it's depends on your way of riding and maintaining its has great mileage as well compared to other cc bike"
+  },
+  {
+    "id": "624ad75b00dd622bfa7a17c1",
+    "name": "Rail Rider",
+    "image": "./images/rider-2.jpg",
+    "rating": 4.2,
+    "review": "I have tried my friend's r15 v4 for 20km.This is the best bike under 2 lakhs.By performance and mileage no other bikes are competitive to r15 v4.This is my dream bike."
+  },
+  {
+    "id": "624ad75bf1001b65465036e1",
+    "name": "Ghost Rider",
+    "image": "./images/rider-3.jpg",
+    "rating": 4.3,
+    "review": "I love this bike seat is also very comfortable even it's comes with abs overall i love this bike at this price range"
+  },
+  {
+    "id": "624ad75bf1001b54065036e1",
+    "name": "Crazy Biker",
+    "image": "./images/rider-4.jpg",
+    "rating": 5,
+    "review": "The bike is very awesome and loveable and the control system is also good"
+  },
+  {
+    "id": "624ad75b0d70dcc7a5b8dc69",
+    "name": "Rush Rider",
+    "image": "./images/rider-5.jpg",
+    "rating": 4.4,
+    "review": "This is really made for track control handling any more is beautiful and his power is spectacular"
+  },
+  {
+    "id": "624ad75bb6c93afa97428d81",
+    "name": "Big Biker",
+    "image": "./images/rider-6.jpg",
+    "rating": 4.9,
+    "review": "Very good performance.I like this bike.I impress this bike future."
+  }
+]
