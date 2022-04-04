@@ -8,7 +8,7 @@ import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
-    <div className="bg-slate-900 text-slate-300">
+    <div className="bg-slate-900 text-slate-300 font-sans">
       <Header />
       <main>
         <Routes>
