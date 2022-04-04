@@ -5,9 +5,9 @@ import Reviews from "../Reviews/Reviews";
 const Home = () => {
   return (
     <>
-      <section className="max-w-4xl mx-auto">
+      <section className="max-w-4xl mx-auto mt-8">
         {/* hero */}
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row items-center mb-4">
           <div className="md:w-2/4">
             <img
               className="max-w-full h-auto rounded-lg shadow"

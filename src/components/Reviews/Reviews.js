@@ -4,12 +4,12 @@ import { useReviews } from "../../hooks/useReviews";
 import Review from "../Review/Review";
 
 const Reviews = ({ home }) => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   const navigateTo = useNavigate();
 
   return (
     <>
-      <div className="grid grid-cols-1 max-w-4xl mx-auto gap-8 lg:grid-cols-2">
+      <div className="grid grid-cols-1 max-w-4xl mx-auto gap-8 lg:grid-cols-2 mt-8">
         <h2 className="text-3xl py-3 col-span-full text-center">
           Rider Reviews
         </h2>

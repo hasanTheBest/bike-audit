@@ -1,6 +1,6 @@
 # Bike Audit
 
-live:
+live: https://bike-audit.netlify.app/
 
 ## Features
 
