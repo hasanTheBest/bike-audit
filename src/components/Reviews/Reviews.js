@@ -1,10 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { useReviews } from "../../hooks/useReviews";
 import Review from "../Review/Review";
 
 const Reviews = ({ home }) => {
   const [reviews, setReviews] = useReviews();
-  console.log(home);
+  const navigateTo = useNavigate();
 
   return (
     <>
@@ -22,11 +23,16 @@ const Reviews = ({ home }) => {
               .map((review, i) => <Review key={review.id} {...review} i={i} />)}
       </div>
 
-      <div className="d-flex my-6 py-6 w-full text-center">
-        <button className="py-3 px-6 rounded border bg-slate-700">
-          See All Reviews
-        </button>
-      </div>
+      {home && (
+        <div className="d-flex my-6 py-6 w-full text-center">
+          <button
+            className="py-3 px-6 rounded border bg-slate-700"
+            onClick={() => navigateTo("/reviews")}
+          >
+            See All Reviews
+          </button>
+        </div>
+      )}
     </>
   );
 };

@@ -19,7 +19,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <footer>
+      <footer className="text-center py-3 px-8">
         &copy; <a href="https://github.com/hasanTheBest">Mahmud</a> | All rights
         reserved
       </footer>

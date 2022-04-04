@@ -5,8 +5,6 @@ function CustomLink({ children, to, className, ...props }) {
   let resolved = useResolvedPath(to);
   let match = useMatch({ path: resolved.pathname, end: true });
 
-  console.log(typeof className);
-
   const classes = match
     ? className.concat(" bg-slate-700 text-slate-200")
     : className;
