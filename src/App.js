@@ -8,12 +8,11 @@ import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
-    <>
+    <div className="bg-slate-900 text-slate-300">
       <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/blog" element={<Blog />} />
@@ -24,7 +23,7 @@ function App() {
         &copy; <a href="https://github.com/hasanTheBest">Mahmud</a> | All rights
         reserved
       </footer>
-    </>
+    </div>
   );
 }
 
